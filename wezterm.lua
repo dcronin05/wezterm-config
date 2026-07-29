@@ -46,9 +46,9 @@ config.window_padding = {
   bottom = 8,
 }
 
--- 6. Initial window size (~50% larger, 4:3 aspect ratio taller than wider)
-config.initial_cols = 75
-config.initial_rows = 50
+-- 6. Initial window size (30% wider, 30% shorter: 100 cols x 35 rows)
+config.initial_cols = 100
+config.initial_rows = 35
 
 return config
 
